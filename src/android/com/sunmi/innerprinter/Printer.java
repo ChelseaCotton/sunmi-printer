@@ -105,9 +105,9 @@ public class Printer extends CordovaPlugin {
     } else if (action.equals("hasPrinter")) {
       hasPrinter(callbackContext);
       return true;
-    } else if (action.equals("updatePrinterState")) {
+    /*} else if (action.equals("updatePrinterState")) {
       updatePrinterState(callbackContext);
-      return true;
+      return true;*/
     } else if (action.equals("getPrintedLength")) {
       getPrintedLength(callbackContext);
       return true;
@@ -286,7 +286,7 @@ public class Printer extends CordovaPlugin {
     return hasPrinterService ? 1 : 0;
   }
 
-    public void updatePrinterState(final CallbackContext callbackContext){
+ /*   public void updatePrinterState(final CallbackContext callbackContext){
     try{
       callbackContext.success(updatePrinterState());
 
@@ -299,7 +299,7 @@ public class Printer extends CordovaPlugin {
   private String updatePrinterState() throws Exception{ 
     final IWoyouService printerService = woyouService;
     return printerService.updatePrinterState();
-  }
+  }*/
 
  
 
