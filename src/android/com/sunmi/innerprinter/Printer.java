@@ -296,7 +296,7 @@ public class Printer extends CordovaPlugin {
     }
   }
 
-  private String updatePrinterState(){
+  private String updatePrinterState() throws Exception{ 
     final IWoyouService printerService = woyouService;
     return printerService.updatePrinterState();
   }
