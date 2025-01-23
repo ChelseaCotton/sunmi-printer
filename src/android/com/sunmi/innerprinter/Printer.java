@@ -105,7 +105,7 @@ public class Printer extends CordovaPlugin {
     } else if (action.equals("hasPrinter")) {
       hasPrinter(callbackContext);
       return true;
-    } else if (action.equals("updatePrinterState")){
+    } else if (action.equals("updatePrinterState")) {
       updatePrinterState(callbackContext);
       return true;
     } else if (action.equals("getPrintedLength")) {
