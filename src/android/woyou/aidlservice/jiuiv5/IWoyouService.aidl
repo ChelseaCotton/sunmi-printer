@@ -54,7 +54,7 @@ interface IWoyouService
 	* 获取打印机固件版本号
 	*/
 	String getPrinterVersion();
-        String updatePrinterVersion();
+      
 
 	/**
 	* 获取打印机型号
